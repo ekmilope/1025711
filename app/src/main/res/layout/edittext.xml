@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<EditText android:id="@+id/text_texto2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:hint="digite su telefono"
+    android:layout_margin="20dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:inputType="textMultiLine"
+        android:hint="escribe lo que quieras"
+        android:layout_margin="20dp"
+        />
+
+    <Button android:layout_gravity="center_horizontal" android:onClick="hacerClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Login"
+        android:background="@drawable/button_background"
+        android:textColor="@color/blanco"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/onepiece"
+        android:scaleType="fitCenter"
+        />
+
+
+</LinearLayout>
