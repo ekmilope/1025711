@@ -6,11 +6,13 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     EditText texto;
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.edittext);
 
         texto = (EditText) findViewById(R.id.text_texto2);
+        imageView=(ImageView) findViewById(R.id.imageview);
         texto.getText().toString();
         texto.setText("bienvenidos sena");
         Log.d("ETIQUETA", "MENSAJE");
@@ -31,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     public void hacerClick(View view){
        texto.getText().toString();
         texto.setText("ud presionó click");
+        imageView.setImageResource(R.drawable.button_background);
     }
 
 }

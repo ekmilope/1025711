@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView android:text="Situación laboral" android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox android:id="@+id/checkbox"
+        android:text="Trabajas?"
+        android:button="@android:drawable/ic_delete"
+        android:checked="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox android:text="Estudias?"
+        android:button="@drawable/checkbox_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="Sexo" android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Hombre" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Mujer" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00ff00"
+        android:text="Seleccionar todo"
+        />
+
+</LinearLayout>
