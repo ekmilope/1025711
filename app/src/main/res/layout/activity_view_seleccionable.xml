@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ListView android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="8"
+        android:dividerHeight="20dp" android:divider="@color/colorPrimaryDark"
+        android:entries="@array/peliculas"
+        >
+    </ListView>
+
+    <AutoCompleteTextView android:id="@+id/autocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"
+        android:completionThreshold="1"
+        />
+
+    <Spinner android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"
+        android:entries="@array/peliculas"
+        ></Spinner>
+
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="peliculas">
+        <item>Soy Leyenda</item>
+        <item>La quinta Ola</item>
+        <item>Saw</item>
+        <item>Civil War</item>
+        <item>Star war</item>
+        <item>Robocop</item>
+    </array>
+
+</resources>
