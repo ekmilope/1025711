@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/favoritos" android:title="favoritos" android:icon="@android:drawable/btn_star"
+        android:orderInCategory="2" android:menuCategory="container" app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/borrar" android:title="borrar" android:icon="@android:drawable/ic_delete"
+        android:orderInCategory="1" android:menuCategory="container" app:showAsAction="ifRoom"></item>
+
+    <item android:id="@+id/buscar" android:title="Buscar" android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="3" android:menuCategory="container" app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/contactos" android:title="Contactos" android:icon="@android:drawable/btn_star_big_off"
+        android:orderInCategory="4" android:menuCategory="container" app:showAsAction="never">
+    </item>
+
+    <item android:title="submenu">
+        <menu>
+            <item android:id="@+id/buscar1" android:title="Buscar" android:icon="@android:drawable/ic_menu_search"
+                android:orderInCategory="5" android:menuCategory="container" app:showAsAction="never">
+            </item>
+            <item android:id="@+id/contactos1" android:title="Contactos" android:icon="@android:drawable/btn_star_big_off"
+                android:orderInCategory="6" android:menuCategory="container" app:showAsAction="never">
+            </item>
+        </menu>
+    </item>
+
+
+
+
+</menu>

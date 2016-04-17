@@ -1,10 +1,14 @@
 package senatest.sena11.adapter;
 
 import android.content.Context;
+import android.media.Image;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -51,6 +55,11 @@ public class AnimeAdapter extends BaseAdapter {
         TextView textoAnime=(TextView) v.findViewById(R.id.text_nombre);
         TextView textoAutor=(TextView) v.findViewById(R.id.text_autor);
         TextView textoAnio=(TextView) v.findViewById(R.id.text_anio);
+        ImageView imageView = (ImageView)v.findViewById(R.id.imagen);
+
+//usemos picasso:
+
+        Picasso.with(context).load(listaAnime.get(position).getUrl()).resize(200,200).rotate(45).into(imageView);
 
 
         textoAnime.setText( listaAnime.get(position).getNombre() );

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="senatest.sena11">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,12 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".UI2Activity"></activity>
-        <activity android:name=".LinearLayoutActivity">
+        <activity android:name=".UI2Activity" />
+        <activity android:name=".LinearLayoutActivity"></activity>
+        <activity android:name=".ViewSeleccionableActivity">
 
         </activity>
-        <activity android:name=".ViewSeleccionableActivity"
-            >
+        <activity android:name=".GridViewActivity">
             <intent-filter android:priority="0">
                 <action android:name="android.intent.action.MAIN" />
 
