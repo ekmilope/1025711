@@ -12,18 +12,19 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".UI2Activity" />
-        <activity android:name=".LinearLayoutActivity"></activity>
-        <activity android:name=".ViewSeleccionableActivity">
-
-        </activity>
-        <activity android:name=".GridViewActivity">
+        <activity android:name=".LinearLayoutActivity" />
+        <activity android:name=".ViewSeleccionableActivity" />
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".Pantalla1Activity">
             <intent-filter android:priority="0">
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity android:name=".Pantalla2Activity" />
+        <activity android:name=".Pantalla3Activity" />
+        <activity android:name=".CameraActivity"></activity>
     </application>
 
 </manifest>
