@@ -15,16 +15,22 @@
         <activity android:name=".LinearLayoutActivity" />
         <activity android:name=".ViewSeleccionableActivity" />
         <activity android:name=".GridViewActivity" />
-        <activity android:name=".Pantalla1Activity">
+        <activity android:name=".Pantalla1Activity" />
+        <activity android:name=".Pantalla2Activity" />
+        <activity android:name=".Pantalla3Activity" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".TraduccionActivity" />
+        <activity android:name=".SupportScreenActivity"></activity>
+        <activity android:name=".StaticFragmentActivity">
+
+        </activity>
+        <activity android:name=".MotherFragmentActivity">
             <intent-filter android:priority="0">
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Pantalla2Activity" />
-        <activity android:name=".Pantalla3Activity" />
-        <activity android:name=".CameraActivity"></activity>
     </application>
 
 </manifest>

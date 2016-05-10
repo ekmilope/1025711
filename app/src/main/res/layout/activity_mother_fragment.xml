@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="senatest.sena11.MotherFragmentActivity">
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/button1"
+        android:background="@color/colorAccent"
+        android:text="Te quiero ..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/button1"
+        android:id="@+id/button2"
+        android:background="@color/colorAccent"
+        android:text="Decir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:background="@drawable/button_circle"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/button2"
+        android:src="@android:drawable/ic_menu_delete"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText android:hint="Texto para la mama"
+            android:id="@+id/text" android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/contenedor1"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/contenedor2"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

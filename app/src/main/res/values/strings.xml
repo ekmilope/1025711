@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Sena11</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="poem">"Quién subiera tan alto como la luna
+para ver las estrellas una por una
+y escoger entre ellas la más bonita
+para alumbrar el cuarto de mi mamita".</string>
 </resources>

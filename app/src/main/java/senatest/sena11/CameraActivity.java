@@ -20,6 +20,7 @@ public class CameraActivity extends AppCompatActivity {
 
     ImageView photo;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
