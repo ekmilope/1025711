@@ -20,12 +20,14 @@
         <activity android:name=".Pantalla3Activity" />
         <activity android:name=".CameraActivity" />
         <activity android:name=".TraduccionActivity" />
-        <activity android:name=".SupportScreenActivity"></activity>
-        <activity android:name=".StaticFragmentActivity">
+        <activity android:name=".SupportScreenActivity" />
+        <activity android:name=".StaticFragmentActivity" />
+        <activity android:name=".MotherFragmentActivity"></activity>
+        <activity android:name=".ViewPagerExample">
 
         </activity>
-        <activity android:name=".MotherFragmentActivity">
-            <intent-filter android:priority="0">
+        <activity android:name=".DrawerActivity">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
